@@ -4,6 +4,8 @@ import { UserProvider } from "../context/user";
 import Header from "./Header";
 import Profile from "./Profile";
 
+
+
 function App() {
   const { theme } = useContext(ThemeContext);
   return (
@@ -17,4 +19,3 @@ function App() {
 }
 
 export default App;
-  
